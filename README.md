@@ -3,13 +3,13 @@
 **MemoryChain** is a prototype for visual voice memory. It allows users to:
 - Upload audio files
 - Transcribe them using Whisper
-- Summarize with GPT-3.5
+- Summarize with DeepSeek LLM via HuggingFace
 - Store and visualize memories on an interactive timeline
 
 ## 🚀 Features
 - 📤 Audio upload (.wav/.mp3)
 - 🧠 Whisper-based transcription
-- ✨ GPT summarization
+- ✨ Summarization using DeepSeek via Hugging Face API
 - 📊 Interactive timeline using Plotly
 
 ## 🛠 Requirements
@@ -18,9 +18,9 @@ pip install -r requirements.txt
 ```
 
 ## 🔑 API Keys
-Set your OpenAI API key as an environment variable:
+Set your Hugging Face API key as an environment variable:
 ```bash
-export OPENAI_API_KEY=your-key-here
+export HUGGINGFACE_TOKEN=your-key-here
 ```
 
 ## ▶️ Run It
